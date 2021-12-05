@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,400;1,600&display=swap');
+
+:root {
+    --primary-color: #007AF3;
+
+body {
+    background: #EEEEEE;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background: #EEEEEE;
+    padding: 2em, 2em;
+
+    .logo {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+        font-family: 'Poppins'
+
+        span {
+            color: var(--primary-color);
+        }
+        }
+    }
+
+nav {
+    diplay: none;
+    }
+
+.container {
+    display: flex;
+    place-content: space-between;
+    }  
+    
+a {
+    color: #444444;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.hero {
+    text-align: left;
+}
+
+.left-col {
+
+    .subhead {
+        font-weight: 400;
+        color: black;
+
+        span{
+        font-weight: 400;
+        color: var(--primary-color);
+        }
+        }
+}
+
+section.projects-section{
+    background: #20272E;
+    color: white;
+    margin: 0;
+
+    ul.projects-list{
+        margin:0;
+        padding-left: .1em;
+        // come back to this
+
+        li{
+            font-size: 1.1;
+            margin-bottom: 1em;
+            margin-left: 2em;
+        }
+    }
+}
+
+section.testimonials-section {
+    background: var(--primary-color);
+    color: white;
+
+    li{
+        background: #006BD6;
+        text-align: center;
+        padding: 2em 1em;
+        width: 80%;
+        margin: 0 auto 5em auto;
+        border-radius: 1em;
+    }
+}
+
+section.contacts-section {
+    font-size: 1em;
+
+    label {
+        display: block;
+        font-size: 1em;
+        margin-bottom: .5em;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: .8em;
+        margin-bottom: 1em;
+        border-radius: .3em;
+        border: 1px solid gray;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        border: none;
+        margin-bottom: 5em;
+        border-radius: 5em;
+        display: inline-block;
+        padding: .8em 2em;
+        width: unset;
+        cursor: pointer;
+
+    }
+
+    }
+
+}
